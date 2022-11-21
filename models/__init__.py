@@ -6,7 +6,6 @@ from .cmcl_transformer import CMCLTransformer
 from .coarse_grained_cl import CoarseCL
 from .vilt import ViLTTransformer
 from .cmcl_vilt import CMCLViLT
-from .cmcl_trans2 import CMCLTransformer2
 from .cmcl_transk import CMCLTransformerk
 from .albef import ALBEF
 from .cmcl_albef import CMCLAlbef
@@ -16,7 +15,6 @@ from modules.albef_vit import interpolate_pos_embed
 
 model_dict = {'meter': METERTransformer, 
               'cmcl': CMCLTransformer, 
-              'cmcl_new': CMCLTransformer2,
               'coarsecl': CoarseCL,
               'vilt': ViLTTransformer,
               'cmcl_vilt': CMCLViLT,
