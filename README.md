@@ -1,4 +1,4 @@
-# Cross-Modal Contrastive Learning for Robust VQA
+# Cross-Modal Contrastive Learning for Robust Reasoning in VQA
 
 This repo is an implementation in PyTorch and support [METER](https://github.com/zdou0830/METER), [ViLT](https://github.com/dandelin/ViLT) and [ALBEF](https://github.com/salesforce/ALBEF) backbones.
 
